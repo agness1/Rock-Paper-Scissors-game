@@ -1,0 +1,113 @@
+.choice {
+    background-image: url("../images/bg-triangle.svg");
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    background-position: 50%;
+   
+}
+.items {
+    position: absolute;
+    width: 3rem;
+    height: 3rem;
+    padding: 2rem;
+    background-color: whitesmoke;
+    border-radius: 50%;
+    border: 1rem solid;
+}
+.result_hand {
+    display: flex;
+    align-items: center;
+    width: 3rem;
+    height: 3rem;
+    padding: 2rem;
+    background-color: whitesmoke;
+    border-radius: 50%;
+    border: 1rem solid;
+}
+
+
+.paper {
+   border-color: blue;
+   left: 36%;
+   top: 35%
+}
+.rock {
+    border-color: orange;
+    top: 35%;
+    left: 55%;
+}
+
+.scissors {
+    border-color: red;
+    left: 46%;
+    top: 70% ;
+}
+
+.result {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    
+}
+
+.result div {
+    padding: 3rem;
+    
+}
+
+.picked {
+    color: whitesmoke;
+    margin-bottom: 1rem;
+}
+.show_result {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: whitesmoke;
+   
+}
+
+
+.picked_hands {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    
+}
+.play_btn {
+    width: 11rem;
+    height: 3rem;
+    border-radius: 2rem;
+    border: none;
+    margin: 1rem;
+}
+.play_btn:hover {
+color: red;
+}
+
+@media only screen and (max-width: 600px) {
+    .result {
+        flex-direction: column;
+    }
+    .paper {
+     
+        left: 3%;
+        top: 35%
+     }
+     .rock {
+     
+         top: 35%;
+         left: 60%;
+     }
+     
+     .scissors {
+         
+         left: 33%;
+         top: 70% ;
+     }
+     
+}

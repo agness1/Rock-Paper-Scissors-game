@@ -1,0 +1,38 @@
+.score {
+    width: 60%;
+    margin-top: 2rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    border: 3px solid hsl(217, 16%, 45%);
+    border-radius: 1rem;
+}
+
+.names h3 {
+    color: whitesmoke;
+}
+
+.p_score {
+    width: 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: whitesmoke;
+    text-align: center;
+    border-radius: 1rem;
+}
+.score_title {
+    color: hsl(229, 64%, 46%);
+
+}
+.score_number {
+    font-size: 2rem;
+    color: hsl(229, 25%, 31%);
+}
+
+@media only screen and (max-width: 600px) { 
+.score {
+    width: 80%;
+}
+
+}

@@ -1,26 +1,21 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Fragment } from 'react';
+import Choice from './components/choice';
+import Score from './components/score';
+import Rules from './components/rules';
+import Atr from './components/UI/attribution';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+   <Fragment>
+     <Score/>
+     <Choice/>
+     <Rules/>
+     <Atr/>
+   </Fragment>
+  )
+    
+  
 }
 
 export default App;

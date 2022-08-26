@@ -1,0 +1,25 @@
+.modal {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+margin: auto;
+    top: 20%;
+    height: 70%;
+    width: 40%;
+    background-color: whitesmoke;
+    border-radius: 1rem;
+}
+
+@media only screen and (max-width: 600px) { 
+
+    .modal {
+        top: 30%;
+        height: 60%;
+        width: 90%;
+
+    }
+
+
+
+}
