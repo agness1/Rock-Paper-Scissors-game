@@ -1,3 +1,9 @@
+### Screenshot
+![](./src/images/screenShots/FireShot%20Capture%20011%20-%20Rock%2C%20Paper%2C%20Scissors%20-%20localhost.png)
+![](./src/images/screenShots/FireShot%20Capture%20012%20-%20Rock%2C%20Paper%2C%20Scissors%20-%20localhost.png)
+![](./src/images/screenShots/FireShot%20Capture%20014%20-%20Rock%2C%20Paper%2C%20Scissors%20-%20localhost.png)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
